@@ -17,8 +17,12 @@ export function Header(props: any) {
         <div className="links-menu">
           <ul>
             <li>
-              <Link className={`li ${darkMode ? 'dark-link' : ''}`} to="/">
-                Home
+              <Link
+                className={`li ${darkMode ? 'dark-link' : ''}`}
+                to="https://github.com/LeandroRochaS/GitFind"
+                target="_blank"
+              >
+                Repo
               </Link>
             </li>
           </ul>
