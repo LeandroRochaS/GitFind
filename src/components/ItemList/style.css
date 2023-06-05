@@ -1,0 +1,25 @@
+.itemList {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.itemList strong {
+  font-size: 24px;
+}
+
+.itemList p {
+  width: 60rem;
+  color: #999999;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 13px;
+}
+
+@media screen and (max-width: 768px){
+  .itemList {
+    width: 36%;
+  }
+  .itemList p{
+    width: 30rem;
+  }
+}
