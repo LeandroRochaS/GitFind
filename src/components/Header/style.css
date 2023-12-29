@@ -1,5 +1,5 @@
 .header .dark-mode {
-  background-color: #2D333B;
+  background-color: #2d333b;
   color: #ffffff;
   width: 420px;
   height: 411px;
@@ -25,21 +25,21 @@
   width: 90%;
   display: flex;
   justify-content: center;
-
 }
 
-.content-links{
+.content-links {
   width: 10%;
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
   margin-right: 10px;
 }
 
 .title-menu .title {
-  font-size: 2.7rem;
+  font-size: 2.3rem;
   text-transform: uppercase;
   color: rgb(0, 0, 0);
   text-decoration: none;
+  font-weight: 900;
 }
 
 .links-menu ul {
@@ -82,13 +82,20 @@
   transform: scaleX(0);
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
-
 }
 
 .li:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+
+.sun-light {
+  color: #fff;
+}
+
+.sun-black {
+  color: #000000;
 }
 
 @media (max-width: 750px) {
@@ -114,7 +121,7 @@
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .content-links {
     width: 20%;
     display: flex;
@@ -122,5 +129,4 @@
     align-items: center;
     padding-right: 20px;
   }
-
 }

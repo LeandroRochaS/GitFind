@@ -29,6 +29,7 @@ export function Header(props: any) {
         </div>
         <button className="button-change" onClick={toggleDarkMode}>
           <svg
+            className={darkMode ? 'sun-light' : 'sun-dark'}
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
